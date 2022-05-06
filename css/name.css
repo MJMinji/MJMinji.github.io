@@ -1,0 +1,148 @@
+
+
+header {
+  height: 35px;
+  padding: 1rem;
+  color: white;
+  background: rgb(152, 178, 255);
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer
+ 
+}
+
+.sidemenu{
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 30px;
+}
+
+.introduce {
+  
+   margin-top: 30px;
+    border: 10px double rgb(93, 124, 246);
+    text-align: center;
+    
+}
+
+
+
+
+/* * {padding: 0; margin: 0;} */
+li {list-style: none;}
+
+/*layout*/
+body {font-family: 'Noto Sans KR', sans-serif;}
+.wrap {width: 100%;}
+.contents {width: auto; background: rgb(228, 229, 254); margin: 50px auto;}
+.contents h2 {font-size: 38px;  padding: 40px 30px;}
+.contents ul {width: 95%;  margin: 0 auto; overflow: hidden; }
+.contents ul li { float: left; width: 32%; margin-right: 2%;}
+.contents ul li:nth-child(3) {margin-right: 0;}
+.contents ul li .imgBox {width: 100%; height: 300px;background:url(../image/ticket-gdbe01af04_1920.jpg)
+no-repeat left 0px top 0px/cover; padding: 30px; box-sizing: border-box; color:#fff;margin-bottom: 30px; }
+.contents ul li:nth-child(2) .imgBox {background: url(../image/background-gfe9cbca46_1920.jpg) center/cover;}
+.contents ul li:nth-child(3) .imgBox {background: url(../image/camera-gf38c26b7e_1920.jpg) center/cover;}
+.contents ul li .tit {font-size: 24px; line-height: 1.2; margin-bottom: 40px; }
+.contents ul li .tit .sub {font-size: 15px;}
+
+
+.movi{
+ background-color: rgb(220, 207, 118);
+}
+
+.movi:hover {
+ background-color: transparent;
+ color: rgb(32, 30, 30);
+ transition:none;
+}
+
+.sea{
+ background-color: aqua;
+}
+
+.sea:hover {
+ background-color: transparent;
+ color: rgb(255, 255, 255);
+ transition:none;
+}
+
+.cloud {
+  background-color: rgb(0, 98, 255);
+}
+
+.cloud:hover {
+  background-color: transparent;
+  color: rgb(170, 168, 190);
+  transition:none;
+ }
+
+.ptest{
+ background-color: antiquewhite;
+}
+
+.ptest:hover {
+    background-color: transparent;
+    color: rgb(223, 138, 138);
+    transition:none;
+}
+
+/* 영상 */
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins',sans-serif;
+}
+
+.ban {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ban video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ban h2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  font-size: 20vw;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+  line-height: 100vh;
+  mix-blend-mode: screen;
+}
+
+
+
+
+/* 마지막 */
+.float-end{
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+}
+
+
+

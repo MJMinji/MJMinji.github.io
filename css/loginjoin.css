@@ -1,0 +1,15 @@
+
+legend {
+    font-size: 50px;
+    color: #010b18;
+    font-weight: 800; 
+}
+
+fieldset{
+    font-size: 20px;
+}
+
+div {
+    text-align: center;
+    line-height: 1.5em;
+}
